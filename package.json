@@ -1,0 +1,17 @@
+{
+  "name": "ble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ws-slave": "node ws-slave",
+    "scan": "node scan"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-hci-socket": "npm:@abandonware/bluetooth-hci-socket@^0.5.3-5",
+    "env2": "^2.2.2",
+    "gattacker": "git+https://github.com/jeffrafter/gattacker.git"
+  }
+}
